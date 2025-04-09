@@ -42,11 +42,12 @@
                 android:fontFamily="@font/kirang_haerang"
                 android:textColor="#3C3C3C"
                 android:textSize="30sp"
-                android:text="To eat:"
+                android:text="@string/to_eat"
                 />
-            <include layout="@layout/dish_item" android:id="@+id/item_salad"/>
-            <include layout="@layout/dish_item" android:id="@+id/item_pizza"/>
-            <include layout="@layout/dish_item" android:id="@+id/item_pasta"/>
+            <include layout="@layout/dish_item" android:id="@+id/item_salad" />
+            <include layout="@layout/dish_item" android:id="@+id/item_pasta_rose" />
+            <include layout="@layout/dish_item" android:id="@+id/item_pasta_pomadoro" />
+            <include layout="@layout/dish_item" android:id="@+id/item_pizza_pomadoro" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,10 +55,10 @@
                 android:fontFamily="@font/kirang_haerang"
                 android:textColor="#3C3C3C"
                 android:textSize="30sp"
-                android:text="To drink:"
+                android:text="@string/to_drink"
                 />
-            <include layout="@layout/dish_item" android:id="@+id/item_beer"/>
-            <include layout="@layout/dish_item" android:id="@+id/item_coke"/>
+            <include layout="@layout/dish_item" android:id="@+id/item_beer" />
+            <include layout="@layout/dish_item" android:id="@+id/item_coke" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

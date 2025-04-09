@@ -45,7 +45,7 @@
             android:layout_height="57dp"
             android:layout_marginStart="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/placeholder" />
+            android:src="@drawable/pasta_rose" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

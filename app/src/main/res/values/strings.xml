@@ -6,4 +6,36 @@
     <string name="about">about</string>
     <string name="contact">contact</string>
 
+    <!--Welcom page-->
+
+    <!--Dishes-->
+    <string name="to_eat">To eat:</string>
+
+    <!--Salad-->
+    <string name="salad_title">Salad</string>
+    <string name="salad_desc">Tomatos, cucumber, olives and fetta cheese</string>
+
+    <!-- Pasta Rosé -->
+    <string name="pasta_rose_title">Pasta Rosé</string>
+    <string name="pasta_rose_desc">Creamy tomato sauce with penne pasta</string>
+
+    <!-- Pasta Pomadoro -->
+    <string name="pasta_pomadoro_title">Pasta Pomadoro</string>
+    <string name="pasta_pomadoro_desc">Tomato sauce with garlic and basil</string>
+
+    <!-- Pizza Pomadoro -->
+    <string name="pizza_pomadoro_title">Pizza Pomadoro</string>
+    <string name="pizza_pomadoro_desc">Thin crust pizza with tomato, mozzarella and basil</string>
+
+    <!--Drinks-->
+    <string name="to_drink">To drink:</string>
+
+    <!-- Beer -->
+    <string name="beer_title">Beer</string>
+    <string name="beer_desc">Cold and refreshing</string>
+
+    <!-- Coke -->
+    <string name="coke_title">Coca-Cola</string>
+    <string name="coke_desc">Served chilled with a slice of lemon</string>
+
 </resources>
