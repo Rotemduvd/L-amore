@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9D9B4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            android:src="@drawable/spaghtti_long"
+            android:translationX="14dp"/>
+
+        <LinearLayout
+            android:id="@+id/menu_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:gravity="center"
+                android:textSize="55sp"
+                android:fontFamily="@font/kirang_haerang"
+                android:textColor="#3C3C3C"
+                android:layout_marginTop="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:fontFamily="@font/kirang_haerang"
+                android:textColor="#3C3C3C"
+                android:textSize="30sp"
+                android:text="To eat:"
+                />
+            <include layout="@layout/dish_item" android:id="@+id/item_salad"/>
+            <include layout="@layout/dish_item" android:id="@+id/item_pizza"/>
+            <include layout="@layout/dish_item" android:id="@+id/item_pasta"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:fontFamily="@font/kirang_haerang"
+                android:textColor="#3C3C3C"
+                android:textSize="30sp"
+                android:text="To drink:"
+                />
+            <include layout="@layout/dish_item" android:id="@+id/item_beer"/>
+            <include layout="@layout/dish_item" android:id="@+id/item_coke"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

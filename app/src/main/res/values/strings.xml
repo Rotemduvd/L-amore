@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Italian Resturant App</string>
+    <string name="l_amore">L’AMORE</string>
+    <string name="live_laugh">Live. Laugh. Lasagna.</string>
+    <string name="menu">menu</string>
+    <string name="about">about</string>
+    <string name="contact">contact</string>
+
+</resources>
