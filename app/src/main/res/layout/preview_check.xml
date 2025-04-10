@@ -16,5 +16,7 @@
         <!-- 🟢 Menu Page Layout -->
         <include layout="@layout/menu" />
 
+        <include layout="@layout/contact"/>
+
     </LinearLayout>
 </ScrollView>

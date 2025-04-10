@@ -1,12 +1,13 @@
 <resources>
+    <!--Welcom page-->
     <string name="app_name">Italian Resturant App</string>
     <string name="l_amore">L’AMORE</string>
     <string name="live_laugh">Live. Laugh. Lasagna.</string>
     <string name="menu">menu</string>
     <string name="about">about</string>
-    <string name="contact">contact</string>
+    <string name="contact">contact us</string>
 
-    <!--Welcom page-->
+    <!--menu-->
 
     <!--Dishes-->
     <string name="to_eat">To eat:</string>
@@ -14,18 +15,22 @@
     <!--Salad-->
     <string name="salad_title">Salad</string>
     <string name="salad_desc">Tomatos, cucumber, olives and fetta cheese</string>
+    <string name="salad_price">₪32</string>
 
     <!-- Pasta Rosé -->
     <string name="pasta_rose_title">Pasta Rosé</string>
     <string name="pasta_rose_desc">Creamy tomato sauce with penne pasta</string>
+    <string name="pasta_rose_price">₪60</string>
 
     <!-- Pasta Pomadoro -->
     <string name="pasta_pomadoro_title">Pasta Pomadoro</string>
     <string name="pasta_pomadoro_desc">Tomato sauce with garlic and basil</string>
+    <string name="pasta_pomadoro_price">₪55</string>
 
     <!-- Pizza Pomadoro -->
     <string name="pizza_pomadoro_title">Pizza Pomadoro</string>
     <string name="pizza_pomadoro_desc">Thin crust pizza with tomato, mozzarella and basil</string>
+    <string name="pizza_pomadoro_price">₪48</string>
 
     <!--Drinks-->
     <string name="to_drink">To drink:</string>
@@ -33,9 +38,25 @@
     <!-- Beer -->
     <string name="beer_title">Beer</string>
     <string name="beer_desc">Cold and refreshing</string>
+    <string name="beer_price">₪26</string>
 
     <!-- Coke -->
     <string name="coke_title">Coca-Cola</string>
     <string name="coke_desc">Served chilled with a slice of lemon</string>
+    <string name="coke_price">₪14</string>
+
+    <string name="our_story">Our Story</string>
+    <string name="nona">It all started with Nonna Shoomon, a warm-hearted Italian grandma who made pasta by hand every morning. Her recipes live on in every dish we serve.</string>
+    <string name="where_to_find_us">Where to Find Us</string>
+    <string name="times">24 Via Della Pasta, Tel Aviv\n\nSun–Friday: 12:00–22:00\n\nSat: Closed</string>
+    <string name="reserve_a_table">Reserve a Table</string>
+    <string name="number_of_seats">Number of seats: 1</string>
+    <string name="payment_method">Payment Method:</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
+    <string name="app">App</string>
+    <string name="select_time">Select Time:</string>
+    <string name="vegan_meal">Vegan meal?</string>
+    <string name="reserve_seats">Reserve Seats</string>
 
 </resources>

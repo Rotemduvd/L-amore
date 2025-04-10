@@ -1,6 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFF2D8">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Story-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D97474"
+            android:text="@string/our_story"
+            android:fontFamily="@font/kirang_haerang"
+            android:textSize="26sp"
+            android:textColor="#3C3C3C"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nona"
+            android:textColor="#3C3C3C"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Where to find -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D97474"
+            android:text="@string/where_to_find_us"
+            android:textSize="26sp"
+            android:fontFamily="@font/kirang_haerang"
+            android:textColor="#3C3C3C"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/times"
+            android:textColor="#3C3C3C"
+            android:textSize="16sp"
+            android:layout_marginBottom="0dp" />
+
+        <!-- ✍️ Reserve a Table -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve_a_table"
+            android:background="#D97474"
+            android:textSize="26sp"
+            android:fontFamily="@font/kirang_haerang"
+            android:textColor="#3C3C3C"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Number of Seats -->
+        <TextView
+            android:id="@+id/seats_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_seats"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Preferred Payment Method -->
+        <SeekBar
+            android:id="@+id/seats_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="9"
+            android:progress="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_method"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/payment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radio_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cash" />
+
+            <RadioButton
+                android:id="@+id/radio_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card" />
+
+            <RadioButton
+                android:id="@+id/radio_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app" />
+        </RadioGroup>
+
+        <!-- Reservation Time -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TimePicker
+            android:id="@+id/time_spinner"
+            android:timePickerMode="spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Vegan Switch -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vegan_meal"
+                android:textSize="16sp"
+                android:layout_marginEnd="12dp" />
+
+            <Switch
+                android:id="@+id/vegan_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/reserve_seats"
+            android:textColor="#3C3C3C"
+            android:backgroundTint="#89A784"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

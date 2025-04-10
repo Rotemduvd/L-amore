@@ -61,6 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
     <LinearLayout
         android:id="@+id/buttonRow"
+        style="?android:attr/buttonBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -71,33 +72,26 @@
         android:layout_marginBottom="50dp">
 
 
-
-
         <Button
             android:id="@+id/btnMenu"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="55dp"
             android:background="@android:color/transparent"
-            android:backgroundTint="#B9D9B4"
             android:text="@string/menu"
+            android:textSize="20sp"
             android:textColor="#89A784" />
 
-        <Button
-            android:id="@+id/btnOrder"
-            android:textColor="#89A784"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about"
-            android:background="@android:color/transparent"
-            android:layout_marginEnd="8dp" />
 
         <Button
             android:id="@+id/btnContact"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:text="@string/contact"
+            android:textSize="20sp"
             android:textColor="#89A784" />
 
     </LinearLayout>
