@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF2D8">
+    android:background="#FFF2D8"
+    android:id="@+id/contact_scroll">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/our_story"
             android:background="#D97474"
             android:text="@string/our_story"
             android:fontFamily="@font/kirang_haerang"
@@ -25,6 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/all_story"
             android:text="@string/nona"
             android:textColor="#3C3C3C"
             android:textSize="16sp"
@@ -35,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#D97474"
+            android:id="@+id/where"
             android:text="@string/where_to_find_us"
             android:textSize="26sp"
             android:fontFamily="@font/kirang_haerang"
@@ -62,15 +66,32 @@
             android:layout_marginBottom="12dp" />
 
         <!-- Number of Seats -->
-        <TextView
-            android:id="@+id/seats_label"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/number_of_seats"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
 
-        <!-- Preferred Payment Method -->
+            <TextView
+                android:id="@+id/seats_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_of_seats"
+                android:textSize="16sp"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/seats_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#D97474" />
+        </LinearLayout>
+
+
         <SeekBar
             android:id="@+id/seats_seekbar"
             android:layout_width="match_parent"
@@ -91,18 +112,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="16dp">
 
             <RadioButton
                 android:id="@+id/radio_cash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
                 android:text="@string/cash" />
 
             <RadioButton
                 android:id="@+id/radio_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
                 android:text="@string/card" />
 
             <RadioButton

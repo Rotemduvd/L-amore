@@ -50,7 +50,7 @@
     <string name="where_to_find_us">Where to Find Us</string>
     <string name="times">24 Via Della Pasta, Tel Aviv\n\nSun–Friday: 12:00–22:00\n\nSat: Closed</string>
     <string name="reserve_a_table">Reserve a Table</string>
-    <string name="number_of_seats">Number of seats: 1</string>
+    <string name="number_of_seats">Number of seats:</string>
     <string name="payment_method">Payment Method:</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
@@ -58,5 +58,9 @@
     <string name="select_time">Select Time:</string>
     <string name="vegan_meal">Vegan meal?</string>
     <string name="reserve_seats">Reserve Seats</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="description">Description</string>
+    <string name="_12">12₪</string>
+    <string name="pic">Pic</string>
 
 </resources>
