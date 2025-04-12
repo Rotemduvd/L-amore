@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Welcom page-->
+    <string name="app_name">Italian Resturant App</string>
+    <string name="l_amore">L’AMORE</string>
+    <string name="menu">תפריט</string>
+    <string name="about">עלינו</string>
+    <string name="contact">צרו קשר</string>
+
+    <!--menu-->
+    <string name="menu_title">תפריט</string>
+
+    <!--Dishes-->
+    <string name="to_eat">מה בא לך לאכול?</string>
+
+    <!--Salad-->
+    <string name="salad_title">סלט</string>
+    <string name="salad_desc">עגבניות, מלפפון, זיתים וגבינת פטה</string>
+    <string name="salad_price">₪32</string>
+
+    <!-- Pasta Rosé -->
+    <string name="pasta_rose_title">פסטה רוזה</string>
+    <string name="pasta_rose_desc">רוטב עגבניות שמנתי עם פסטה פנה</string>
+    <string name="pasta_rose_price">₪60</string>
+
+    <!-- Pasta Pomadoro -->
+    <string name="pasta_pomadoro_title">פסטה פומודורו</string>
+    <string name="pasta_pomadoro_desc">רוטב עגבניות עם שום ובזיליקום</string>
+    <string name="pasta_pomadoro_price">₪55</string>
+
+    <!-- Pizza Pomadoro -->
+    <string name="pizza_pomadoro_title">פיצה פומודורו</string>
+    <string name="pizza_pomadoro_desc">בצק דק עם עגבניות, מוצרלה ובזיליקום</string>
+    <string name="pizza_pomadoro_price">₪48</string>
+
+    <!--Drinks-->
+    <string name="to_drink">מה בא לך לשתות?</string>
+
+    <!-- Beer -->
+    <string name="beer_title">בירה</string>
+    <string name="beer_desc">קרה ומרעננת</string>
+    <string name="beer_price">₪26</string>
+
+    <!-- Coke -->
+    <string name="coke_title">קוקה קולה</string>
+    <string name="coke_desc">מוגש קר עם פלח לימון</string>
+    <string name="coke_price">₪14</string>
+
+    <string name="our_story">הסיפור שלנו</string>
+    <string name="nona">הכול התחיל עם נונה שומון,\nסבתא איטלקייה חמה שלשה פסטה כל בוקר ביד.\nהמתכונים שלה חיים בכל מנה שאנו מגישים.</string>
+    <string name="where_to_find_us">איפה למצוא אותנו</string>
+    <string name="times">24 ויה דלה פסטה, תל אביב\n\nראשון–שישי: 12:00–22:00\n\nשבת: סגור</string>
+    <string name="reserve_a_table">הזמנת שולחן</string>
+    <string name="number_of_seats">מספר סועדים:</string>
+    <string name="payment_method">אמצעי תשלום:</string>
+    <string name="cash">מזומן</string>
+    <string name="card">כרטיס</string>
+    <string name="app">אפליקציה</string>
+    <string name="select_time">בחר שעה:</string>
+    <string name="vegan_meal">ארוחה טבעונית?</string>
+    <string name="reserve_seats">הזמן מקומות</string>
+    <string name="dish_name">שם המנה</string>
+    <string name="description">תיאור</string>
+    <string name="_12">₪12</string>
+    <string name="pic">תמונה</string>
+</resources>

@@ -46,7 +46,7 @@
     <string name="coke_price">₪14</string>
 
     <string name="our_story">Our Story</string>
-    <string name="nona">It all started with Nonna Shoomon, a warm-hearted Italian grandma who made pasta by hand every morning. Her recipes live on in every dish we serve.</string>
+    <string name="nona">It all started with Nonna Shoomon,\na warm-hearted Italian grandma who made pasta by hand every morning.\nHer recipes live on in every dish we serve.</string>
     <string name="where_to_find_us">Where to Find Us</string>
     <string name="times">24 Via Della Pasta, Tel Aviv\n\nSun–Friday: 12:00–22:00\n\nSat: Closed</string>
     <string name="reserve_a_table">Reserve a Table</string>
@@ -62,5 +62,9 @@
     <string name="description">Description</string>
     <string name="_12">12₪</string>
     <string name="pic">Pic</string>
+    <string name="second_pasta" translatable="false">2nd Pasta</string>
+    <string name="menu_title">Menu</string>
+    <string name="pasta_flowing_down">Pasta flowing down</string>
+    <string name="zero">0</string>
 
 </resources>

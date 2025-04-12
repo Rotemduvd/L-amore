@@ -15,9 +15,9 @@ import android.graphics.Rect
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.SeekBar
-import android.widget.Switch
 import android.widget.TimePicker
 import android.widget.Toast
+import androidx.appcompat.widget.SwitchCompat
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
@@ -36,11 +36,11 @@ class MainActivity : AppCompatActivity() {
         tagline.alpha = 0f
         buttons.alpha = 0f
 
-        // load animation
+        //load anim
         val slideIn = AnimationUtils.loadAnimation(this, R.anim.pasta_slide)
         val fadeIn = AnimationUtils.loadAnimation(this, R.anim.welcome_fade_in)
 
-        // start first animation
+        //start first ani
         pastaImage.startAnimation(slideIn)
 
         slideIn.setAnimationListener(object : Animation.AnimationListener {
@@ -143,21 +143,20 @@ class MainActivity : AppCompatActivity() {
         val contactScroll = findViewById<ScrollView>(R.id.contact_scroll)
         val storyH = findViewById<TextView>(R.id.our_story)
         val whereH = findViewById<TextView>(R.id.where)
+        val reserveH = findViewById<TextView>(R.id.reserve)
 
         var contactAnimated = false
 
         contactScroll.viewTreeObserver.addOnScrollChangedListener {
             val visibleRect = Rect()
-            scrollView.getHitRect(visibleRect)
+            contactScroll.getHitRect(visibleRect)
 
             if (storyH.getLocalVisibleRect(visibleRect) && !contactAnimated) {
-               storyH.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fall))
                 contactAnimated = true
-            }
-
-            if (whereH.getLocalVisibleRect(visibleRect) && !contactAnimated) {
-                whereH.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fall))
-                contactAnimated = true
+                val animation = AnimationUtils.loadAnimation(this, R.anim.fall)
+                storyH.startAnimation(animation)
+                whereH.startAnimation(animation)
+                reserveH.startAnimation(animation)
             }
         }
 
@@ -179,7 +178,7 @@ class MainActivity : AppCompatActivity() {
         val reserveButton = findViewById<Button>(R.id.btn_reserve)
         val radioGroup = findViewById<RadioGroup>(R.id.payment_radio_group)
         val timePicker = findViewById<TimePicker>(R.id.time_spinner)
-        val veganSwitch = findViewById<Switch>(R.id.vegan_switch)
+        val veganSwitch = findViewById<SwitchCompat>(R.id.vegan_switch)
 
         reserveButton.setOnClickListener {
             val seats = seatsSeekBar.progress
