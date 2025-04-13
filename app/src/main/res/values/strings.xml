@@ -45,6 +45,11 @@
     <string name="coke_desc">Served chilled with a slice of lemon</string>
     <string name="coke_price">₪14</string>
 
+    <!-- Soda -->
+    <string name="soda_title">Sparkling Water</string>
+    <string name="soda_price">₪12</string>
+
+
     <string name="our_story">Our Story</string>
     <string name="nona">It all started with Nonna Shoomon,\na warm-hearted Italian grandma who made pasta by hand every morning.\nHer recipes live on in every dish we serve.</string>
     <string name="where_to_find_us">Where to Find Us</string>
@@ -64,7 +69,8 @@
     <string name="pic">Pic</string>
     <string name="second_pasta" translatable="false">2nd Pasta</string>
     <string name="menu_title">Menu</string>
-    <string name="pasta_flowing_down">Pasta flowing down</string>
-    <string name="zero">0</string>
+    <string name="pasta_flowing_down" translatable="false">Pasta flowing down</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="rate_our_website">Rate our website</string>
 
 </resources>

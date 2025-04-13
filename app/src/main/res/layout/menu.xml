@@ -59,6 +59,7 @@
                 />
             <include layout="@layout/dish_item" android:id="@+id/item_beer" />
             <include layout="@layout/dish_item" android:id="@+id/item_coke" />
+            <include layout="@layout/dish_item" android:id="@+id/soda" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

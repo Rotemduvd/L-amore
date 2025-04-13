@@ -13,7 +13,6 @@
         android:theme="@style/Theme.ItalianResturantApp"
         tools:targetApi="31">
 
-        <!-- ✅ Set MenuActivity as launcher -->
         <activity
             android:name=".MainActivity"
             android:exported="true">

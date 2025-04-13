@@ -14,6 +14,7 @@ import android.view.animation.Animation
 import android.graphics.Rect
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.RatingBar
 import android.widget.SeekBar
 import android.widget.TimePicker
 import android.widget.Toast
@@ -139,6 +140,13 @@ class MainActivity : AppCompatActivity() {
         coke.findViewById<ImageView>(R.id.dish_image).setImageResource(R.drawable.coke)
         coke.findViewById<TextView>(R.id.dish_price).text = getString(R.string.coke_price)
 
+        // soda
+        val soda = findViewById<View>(R.id.soda)
+        soda.findViewById<TextView>(R.id.dish_title).text = getString(R.string.soda_title)
+        soda.findViewById<TextView>(R.id.dish_description).text = getString(R.string.coke_desc)
+        soda.findViewById<ImageView>(R.id.dish_image).setImageResource(R.drawable.soda)
+        soda.findViewById<TextView>(R.id.dish_price).text = getString(R.string.soda_price)
+
         //CONTACT SCROLL ANIMATIONS
         val contactScroll = findViewById<ScrollView>(R.id.contact_scroll)
         val storyH = findViewById<TextView>(R.id.our_story)
@@ -180,6 +188,15 @@ class MainActivity : AppCompatActivity() {
         val timePicker = findViewById<TimePicker>(R.id.time_spinner)
         val veganSwitch = findViewById<SwitchCompat>(R.id.vegan_switch)
 
+        veganSwitch.setOnCheckedChangeListener { _, isChecked ->
+            Toast.makeText(this, "Vegan switch: ${if (isChecked) "On" else "Off"}", Toast.LENGTH_SHORT).show()
+        }
+
+        radioGroup.setOnCheckedChangeListener { _, checkedId ->
+            val selected = findViewById<RadioButton>(checkedId)
+            Toast.makeText(this, "Selected: ${selected.text}", Toast.LENGTH_SHORT).show()
+        }
+
         reserveButton.setOnClickListener {
             val seats = seatsSeekBar.progress
             val paymentMethodId = radioGroup.checkedRadioButtonId
@@ -205,6 +222,10 @@ class MainActivity : AppCompatActivity() {
                 .show()
         }
 
+        val ratingBar = findViewById<RatingBar>(R.id.rating_bar)
+        ratingBar.setOnRatingBarChangeListener { _, rating, _ ->
+            Toast.makeText(this, "You rated: $rating stars", Toast.LENGTH_SHORT).show()
+        }
 
     }
 }

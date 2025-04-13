@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Welcom page-->
+    <!--Welcome page-->
     <string name="app_name">Italian Resturant App</string>
     <string name="l_amore">L’AMORE</string>
     <string name="menu">תפריט</string>
@@ -18,7 +18,7 @@
     <string name="salad_desc">עגבניות, מלפפון, זיתים וגבינת פטה</string>
     <string name="salad_price">₪32</string>
 
-    <!-- Pasta Rosé -->
+    <!-- Pasta Rose -->
     <string name="pasta_rose_title">פסטה רוזה</string>
     <string name="pasta_rose_desc">רוטב עגבניות שמנתי עם פסטה פנה</string>
     <string name="pasta_rose_price">₪60</string>
@@ -46,6 +46,10 @@
     <string name="coke_desc">מוגש קר עם פלח לימון</string>
     <string name="coke_price">₪14</string>
 
+    <!-- Soda -->
+    <string name="soda_title">סודה</string>
+    <string name="soda_price">₪12</string>
+
     <string name="our_story">הסיפור שלנו</string>
     <string name="nona">הכול התחיל עם נונה שומון,\nסבתא איטלקייה חמה שלשה פסטה כל בוקר ביד.\nהמתכונים שלה חיים בכל מנה שאנו מגישים.</string>
     <string name="where_to_find_us">איפה למצוא אותנו</string>
@@ -63,4 +67,5 @@
     <string name="description">תיאור</string>
     <string name="_12">₪12</string>
     <string name="pic">תמונה</string>
+    <string name="rate_our_website">Rate our website</string>
 </resources>
